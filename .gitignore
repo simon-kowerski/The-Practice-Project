@@ -2,8 +2,12 @@ Encoder.class
 *.log
 *.db
 *.json
-!sample_log.log
+
 devmode.py
 test.py
 todo.txt
 fakelogs.py
+
+!sample_log.log
+!454 468 406 420 419.db
+!simon.json
