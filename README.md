@@ -9,6 +9,9 @@ The end goal of this project is to have an app published for use on Android and 
 
 The project's backend is mostly written in Python, with the excpetion of the encoder used to encrypt passwords, which was written in Java and is NOT included in this repository. 
 
+** NOTE ABOUT COMMIT HISTORY **
+Due to a .gitignore issue and my lack of knowledge of GitHub, the initial commits to this repository no longer are shown. The repository was created on 2/22/2024, with the new initial commit being shown one day later. 
+
 ## Features Completed
 All Python scripts are extensivley documented within the code itself so for the time being detailed descriptions about their use will not be included in this readme file. See the scripts themselves for descriptions of the code and how it works. 
 - Ability to extensively log system behavior and access 
