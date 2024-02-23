@@ -1,0 +1,180 @@
+22:55:57     ~~1 - System startup  user:boot
+22:55:57     020 - Old logs deleted  user:boot
+22:55:57     000 - Entered developer mode  user:dev
+22:55:57     004 - User logged in  user:simon
+22:57:16     005 - User logged out upon shutdown  user:simon
+22:57:16     002 - System shutdown  user:shutdown
+22:57:34     ~~1 - System startup  user:boot
+22:57:34     000 - Entered developer mode  user:dev
+22:57:34     004 - User logged in  user:simon
+22:57:38     005 - User logged out upon shutdown  user:simon
+22:57:38     002 - System shutdown  user:shutdown
+23:07:27     ~~1 - System startup  user:boot
+23:07:27     000 - Entered developer mode  user:dev
+23:07:27     021 - Updated optional logs: True  user:N/A
+23:07:28     015 - Database connected  user:simon
+23:07:28     016 - Database disconnected  user:simon
+23:07:28     004 - User logged in  user:simon
+23:07:28     015 - Database connected  user:simon
+23:07:28     003 - Initiating shutdown after fatal error, no risk of data leak  user:error-handler
+23:07:28     005 - User logged out upon shutdown  user:simon
+23:07:28     002 - System shutdown  user:shutdown
+23:07:28 ERR 004 - FATAL - Encoder Java runtime error  user:dev
+23:07:28     019 - Failed graph generation, user not logged in  user:simon
+23:07:28     017 - Database accessed, list all tables  user:simon
+23:09:12     ~~1 - System startup  user:boot
+23:09:12     000 - Entered developer mode  user:dev
+23:09:12     021 - Updated optional logs: True  user:N/A
+23:09:12     015 - Database connected  user:simon
+23:09:12     016 - Database disconnected  user:simon
+23:09:12     004 - User logged in  user:simon
+23:09:12     015 - Database connected  user:simon
+23:09:12     003 - Initiating shutdown after fatal error, no risk of data leak  user:error-handler
+23:09:12     005 - User logged out upon shutdown  user:simon
+23:09:13     002 - System shutdown  user:shutdown
+23:09:12 ERR 004 - FATAL - Encoder Java runtime error  user:dev
+23:09:14     019 - Failed graph generation, user not logged in  user:simon
+23:09:14     017 - Database accessed, list all tables  user:simon
+23:09:55     ~~1 - System startup  user:boot
+23:09:55     000 - Entered developer mode  user:dev
+23:09:55     021 - Updated optional logs: True  user:N/A
+23:09:55     015 - Database connected  user:simon
+23:09:55     016 - Database disconnected  user:simon
+23:09:55     004 - User logged in  user:simon
+23:09:55     015 - Database connected  user:simon
+23:09:55 ERR 004 - FATAL - Encoder Java runtime error  user:dev
+23:09:55     015 - Database connected  user:simon
+23:09:55     017 - Database accessed, list all tables  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:55     017 - Database accessed, select data from table  user:simon
+23:09:56     018 - Graph generated  user:simon
+23:09:57     017 - Database accessed, list all tables  user:simon
+23:09:57     016 - Database disconnected  user:simon
+23:10:41     005 - User logged out upon shutdown  user:simon
+23:10:41     002 - System shutdown  user:shutdown
+23:10:43     ~~1 - System startup  user:boot
+23:10:43     000 - Entered developer mode  user:dev
+23:10:43     021 - Updated optional logs: True  user:N/A
+23:10:43     015 - Database connected  user:simon
+23:10:43     016 - Database disconnected  user:simon
+23:10:43     004 - User logged in  user:simon
+23:10:43     015 - Database connected  user:simon
+23:10:44     015 - Database connected  user:simon
+23:10:44     017 - Database accessed, list all tables  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     017 - Database accessed, select data from table  user:simon
+23:10:44     018 - Graph generated  user:simon
+23:10:45     017 - Database accessed, list all tables  user:simon
+23:10:45     016 - Database disconnected  user:simon
+23:10:47     005 - User logged out upon shutdown  user:simon
+23:10:47     002 - System shutdown  user:shutdown
+23:11:39     ~~1 - System startup  user:boot
+23:11:39     000 - Entered developer mode  user:dev
+23:11:39     021 - Updated optional logs: True  user:N/A
+23:11:39     015 - Database connected  user:simon
+23:11:39     016 - Database disconnected  user:simon
+23:11:39     004 - User logged in  user:simon
+23:11:39     015 - Database connected  user:simon
+23:11:39     015 - Database connected  user:simon
+23:11:39     017 - Database accessed, list all tables  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     017 - Database accessed, select data from table  user:simon
+23:11:39     018 - Graph generated  user:simon
+23:11:41     017 - Database accessed, list all tables  user:simon
+23:11:41     016 - Database disconnected  user:simon
+23:11:43     005 - User logged out upon shutdown  user:simon
+23:11:43     002 - System shutdown  user:shutdown
+23:11:56     ~~1 - System startup  user:boot
+23:11:56     000 - Entered developer mode  user:dev
+23:11:56     021 - Updated optional logs: True  user:N/A
+23:11:56     015 - Database connected  user:simon
+23:11:56     016 - Database disconnected  user:simon
+23:11:56     004 - User logged in  user:simon
+23:11:56     015 - Database connected  user:simon
+23:11:56     003 - Initiating shutdown after fatal error, no risk of data leak  user:error-handler
+23:11:56     005 - User logged out upon shutdown  user:simon
+23:11:56     002 - System shutdown  user:shutdown
+23:11:56 ERR 004 - FATAL - Encoder Java runtime error  user:dev
+23:12:26     ~~1 - System startup  user:boot
+23:12:26     000 - Entered developer mode  user:dev
+23:12:26     021 - Updated optional logs: True  user:N/A
+23:12:27     015 - Database connected  user:simon
+23:12:27     016 - Database disconnected  user:simon
+23:12:27     004 - User logged in  user:simon
+23:12:27     015 - Database connected  user:simon
+23:12:27 ERR 004 - FATAL - Encoder Java runtime error  user:dev
+23:12:27     003 - Initiating shutdown after fatal error, no risk of data leak  user:error-handler
+23:12:27     005 - User logged out upon shutdown  user:simon
+23:12:27     002 - System shutdown  user:shutdown
+23:13:55     ~~1 - System startup  user:boot
+23:13:55     000 - Entered developer mode  user:dev
+23:13:55     021 - Updated optional logs: True  user:N/A
+23:13:55     015 - Database connected  user:simon
+23:13:55     016 - Database disconnected  user:simon
+23:13:55     004 - User logged in  user:simon
+23:13:55     015 - Database connected  user:simon
+23:13:55     015 - Database connected  user:simon
+23:13:55     017 - Database accessed, list all tables  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:55     017 - Database accessed, select data from table  user:simon
+23:13:56     018 - Graph generated  user:simon
+23:13:57     017 - Database accessed, list all tables  user:simon
+23:13:57     016 - Database disconnected  user:simon
+23:13:58     005 - User logged out upon shutdown  user:simon
+23:13:58     002 - System shutdown  user:shutdown

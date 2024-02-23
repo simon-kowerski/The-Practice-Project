@@ -1,0 +1,9 @@
+Encoder.class
+*.log
+*.db
+*.json
+!sample_log.log
+devmode.py
+test.py
+todo.txt
+fakelogs.py

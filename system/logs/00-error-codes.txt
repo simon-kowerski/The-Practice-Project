@@ -1,0 +1,13 @@
+000 - Test error not envoked in normal operation
+001 - System startup after improper shutdown, source unknown, data leak possible
+002 - 
+003 - 
+004 - FATAL - Encoder Java runtime error
+005 - Requested user does not exist
+006 - Attempted to remove file that does not exist
+007 - Failed to access database
+008 - Failed to modify database
+009 - 
+010 - 
+011 - 
+013 - 

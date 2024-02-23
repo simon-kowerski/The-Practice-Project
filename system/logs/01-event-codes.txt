@@ -1,0 +1,27 @@
+000 - Entered developer mode
+~~1 - System startup
+002 - System shutdown
+003 - Initiating shutdown after fatal error, no risk of data leak
+004 - User logged in
+005 - User logged out
+006 - Failed user login 
+007 - User created
+008 - User deleted
+009 - Username changed
+010 - Password changed
+011 - Failed to change password
+012 - Failed to create user
+013 - Failed to delete user
+014 - Failed user logout
+015 - Database connected
+016 - Database disconnected
+017 - Database accessed
+018 - Graph generated
+019 - Failed graph generation
+020 - Old logs deleted
+021 - Updated optional logs
+
+
+
+
+ - Database file replaced
