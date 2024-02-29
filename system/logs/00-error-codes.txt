@@ -1,7 +1,7 @@
 000 - Test error not envoked in normal operation
 001 - System startup after improper shutdown, source unknown, data leak possible
 002 - 
-003 - 
+003 - Path to databases does not exist, folder replaced, potential loss of stored data
 004 - FATAL - Encoder Java runtime error
 005 - Requested user does not exist
 006 - Attempted to remove file that does not exist

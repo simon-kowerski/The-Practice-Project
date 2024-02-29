@@ -29,6 +29,10 @@ database_path = f"{passwords.path}data/"
 temp_path = f"users/tempfiles/"
 #json content: "username":"{username}", "password":"{psk}", "one":"", "two":"", "three":""
 
+if not os.path.exists(database_path):
+    accesslogs.write(3, "boot", error=True)
+    os.mkdir(database_path)
+
 def __make_file(path, command):
     """
     Creates a new file and returns a pointer to access it
@@ -120,7 +124,7 @@ def create_user(username, password):
         conn.commit()
         conn.close()
     except Exception as e:
-        accesslogs.write(1, username, error=True, extra = f", unable to create databas: {e}")
+        accesslogs.write(1, username, error=True, extra = f", unable to create database: {e}")
         return False
 
 
@@ -322,7 +326,7 @@ class Database:
             self.__cur = self.__con.cursor()
             self.__run_command("PRAGMA timezone = timezone;", None, False)
         except Exception as e:
-            accesslogs.write(7, self.__user, error=True, extra = f"{e}")
+            accesslogs.write(7, self.__user, error=True, extra = f" {e}")
             return False
         
         accesslogs.write(15, self.__user)
