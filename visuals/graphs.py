@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 """
-INCOMPLETE
+INCOMPLETE as of 2/28/24
 A module used to generate graphs from user database information
 """
 
@@ -34,11 +34,22 @@ def _generate_graph(username, dates, times):
     Returns:
         bool - True if graph was saved to a file, false if an error was logged 
     """
+    
+    plt.style.use('dark_background')
+    
     try:
         filepath=f'{user.temp_path}/{username}.png'
         file = open(filepath, 'w')
         fig, ax = plt.subplots()
-        ax.bar(dates, times)
+        for i in range(len(dates)):
+            dates[i] = dates[i][5:]
+
+        bar_colors = ['tab:red', 'tab:blue', 'tab:red', 'tab:orange', 'tab:blue','tab:blue','tab:blue']
+        ax.bar(dates[::-1], times[::-1], color=bar_colors)
+
+        ax.set_xlabel('Date')
+        ax.set_ylabel('Hours Practiced')
+        ax.set_title(f'{username}\'s Practice :)')
 
         acl.write(18, username)
         plt.savefig(filepath)
