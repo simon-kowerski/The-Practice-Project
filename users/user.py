@@ -353,6 +353,28 @@ class Database:
         accesslogs.write(16, self.__user)
         return True
     
+    #####goal tracking#####
+    def create_goal(self):
+        """
+        Adds a table to the database to track goals
+        Adds an overall goal, labled "All", of zero minutes per day to the table 
+
+        -passes the elements of the table to self.__make_table to ensure consistency 
+
+        Returns:
+            bool: Optput of self.__make_table and self.__insert, True if successful, False if an error occurs
+        """
+        bool1 = self.__make_table("GOALS", '''PIECE TEXT, GOAL INT''')
+        bool2 = self.__insert("Goals", "PIECE, GOAL", ["All, 0"])
+
+        return bool1 and bool2
+        
+    def set_goal(self, newGoal, piece="All"):
+        return
+    
+    def get_goal(self, piece="All"):
+        return
+
     #####general#####
     def list_tables(self):
         """
@@ -370,7 +392,7 @@ class Database:
         except Exception:
             return False
 
-    def select_table(self, table, extra=""):
+    def select_table(self, table:str, extra=""):
         """
         Selects all from table specified in the database
 
@@ -386,7 +408,7 @@ class Database:
         except Exception:
             return False
 
-    def print_table(self, table, extra=""):
+    def print_table(self, table:str, extra=""):
         """
         Selects all values from a table, and formats it to be printed
         extra (str): Optional, extra sql commands to be executed (ex. order by, desc, etc.)
@@ -399,7 +421,7 @@ class Database:
         """
         return "\n".join(map(str,self.select_table(table, extra)))
 
-    def remove_table(self, table):
+    def remove_table(self, table:str):
         """
         Removes the specified table from the database
 
@@ -411,7 +433,7 @@ class Database:
         """
         return self.__run_command(f'DROP TABLE {table};', ', removed table')
     
-    def __make_table(self, table, elements):
+    def __make_table(self, table:str, elements:str):
         """
         Creates a table containing specific elements
         -See self.make_instrument_table() an example
@@ -426,7 +448,7 @@ class Database:
         """
         return self.__run_command(f'CREATE TABLE {table} ({elements});', ', added table')
 
-    def __insert(self, table, cols, values:list):
+    def __insert(self, table:str, cols:str, values:list):
         """
         Inserts elements into a table
         -See self.insert_instrument() as an example
@@ -450,7 +472,7 @@ class Database:
         toadd = toadd[:-1]
         return self.__run_command(f'INSERT INTO {table} ({cols}) VALUES {toadd};' , ', insert into table')
 
-    def __run_command(self, command, function, ret=False):
+    def __run_command(self, command:str, function:str, ret:bool=False):
         """
         Runs the provided sql command using the current cursor 
         -If connection is not currently active, attempts to connect to the database
