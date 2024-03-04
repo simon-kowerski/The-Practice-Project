@@ -2,6 +2,7 @@ Encoder.class
 *.log
 *.db
 *.json
+*.pyc
 
 devmode.py
 test.py
